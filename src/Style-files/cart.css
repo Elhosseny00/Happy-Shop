@@ -1,0 +1,198 @@
+:root {
+  --white-color: #f5f5f5;
+  --headeing-color: #eeeeee;
+  --land-color: #d3d3d3;
+  --black-color: #000000;
+  --red-color: #e2343e;
+  --margin: 60px 0;
+  --transition: 0.5s;
+}
+
+.empty {
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-weight: bold;
+  font-size: 150px;
+  width: 100%;
+  color: var(--land-color);
+}
+
+
+.cart .container .cart-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: var(--margin);
+}
+@media (min-width: 767px) and (max-width: 1023px){
+  .cart .container .cart-wrapper{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .cart .container .cart-wrapper{
+    grid-template-columns: 1fr;
+  }
+  .empty {
+    font-size: 45px;
+  }
+}
+
+
+
+.cart .container .cart-wrapper .cart-card {
+  padding: 20px;
+  width: 100%;
+  background-color: var(--headeing-color);
+  border-radius: 15px;
+
+}
+
+.cart .container .cart-wrapper .cart-card .cart-img-box {
+  width: 100%;
+  height: 300px;
+  padding: 8px;
+  background-color: #e5e5e5;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cart .container .cart-wrapper .cart-card .cart-img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.cart .container .cart-wrapper .cart-card .cart-product-info {
+  margin: 12px 0;
+}
+
+.cart .container .cart-wrapper .cart-card .cart-product-info h4 {
+  color: var(--black-color);
+  font-size: 14px;
+}
+
+.cart .container .cart-wrapper .cart-card .cart-product-info p {
+  color: var(--black-color);
+  font-weight: bold;
+}
+
+.cart .container .cart-wrapper .cart-card .butns {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart .container .cart-wrapper .cart-card .butns .quantity-butns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cart .container .cart-wrapper .cart-card .butns .quantity-butns button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #e5e5e5;
+  color: var(--black-color);
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.cart .container .cart-wrapper .cart-card .butns .quantity-butns span {
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--black-color);
+}
+
+.cart .container .cart-wrapper .cart-card .butns .remove-btn button {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border: none;
+  background-color: var(--red-color);
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cart .container .total {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  height: 60px;
+  background-color: var(--headeing-color);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  overflow: hidden;
+}
+
+.cart .container .total div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart .container .total div:last-child {
+  background-color: #e5e5e5;
+}
+
+.cart .container .clear {
+  margin: 30px 0;
+}
+
+.cart .container .clear button {
+  width: 150px;
+  height: 45px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: var(--red-color);
+  border: none;
+  cursor: pointer;
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 18px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.cart .container .clear button:hover{
+  background-color: var(--black-color);
+}

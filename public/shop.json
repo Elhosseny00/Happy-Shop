@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "AirBuds",
+    "price": 50,
+    "image": "/ProductsImage/AirBuds.webp",
+    "category": "electronics"
+  },
+  {
+    "id": 19,
+    "name": "t-shirt",
+    "price": 25,
+    "image": "/ProductsImage/shirt2.webp",
+    "category": "clothes"
+  },
+  {
+    "id": 2,
+    "name": "Apple Watch",
+    "price": 200,
+    "image": "/ProductsImage/Apple_watch.webp",
+    "category": "electronics"
+  },
+  {
+    "id": 3,
+    "name": "Earphone",
+    "price": 60,
+    "image": "/ProductsImage/EarPhone.webp",
+    "category": "electronics"
+  },
+  {
+    "id": 4,
+    "name": "HeadPhone",
+    "price": 80,
+    "image": "/ProductsImage/land.png",
+    "category": "electronics"
+  },
+  {
+    "id": 5,
+    "name": "Laptop HP",
+    "price": 450,
+    "image": "/ProductsImage/newlaptop.webp",
+    "category": "electronics"
+  },
+  {
+    "id": 6,
+    "name": "Playstation",
+    "price": 800,
+    "image": "/ProductsImage/playstation.webp",
+    "category": "electronics"
+  },
+  {
+    "id": 7,
+    "name": "men's watch",
+    "price": 100,
+    "image": "/ProductsImage/samrt-watch-.png",
+    "category": "electronics"
+  },
+  {
+    "id": 8,
+    "name": "men's watch",
+    "price": 100,
+    "image": "/ProductsImage/shop-8.png",
+    "category": "electronics"
+  },
+  {
+    "id": 9,
+    "name": "JPL Speaker",
+    "price": 60,
+    "image": "/ProductsImage/Speaker.webp",
+    "category": "electronics"
+  },
+  {
+    "id": 22,
+    "name": "sneaker",
+    "price": 55,
+    "image": "/ProductsImage/sneakrs1.webp",
+    "category": "clothes"
+  },
+  {
+    "id": 23,
+    "name": "sneaker",
+    "price": 60,
+    "image": "/ProductsImage/sneakrs2.webp",
+    "category": "clothes"
+  },
+  {
+    "id": 10,
+    "name": "HeadPhone",
+    "price": 65,
+    "image": "/ProductsImage/super.webp",
+    "category": "electronics"
+  },
+  {
+    "id": 21,
+    "name": "short",
+    "price": 20,
+    "image": "/ProductsImage/short2.webp",
+    "category": "clothes"
+  },
+  {
+    "id": 11,
+    "name": "T-Shirt",
+    "price": 40,
+    "image": "/ProductsImage/T-shirt.webp",
+    "category": "clothes"
+  },
+  {
+    "id": 12,
+    "name": "Smart Tv",
+    "price": 260,
+    "image": "/ProductsImage/tv-smart.webp",
+    "category": "electronics"
+  },
+  {
+    "id": 13,
+    "name": "VR-Glasses",
+    "price": 260,
+    "image": "/ProductsImage/VR-Glasses.webp",
+    "category": "electronics"
+  },
+  {
+    "id": 14,
+    "name": "sneakers",
+    "price": 70,
+    "image": "/ProductsImage/intro3.webp",
+    "category": "clothes"
+  },
+  {
+    "id": 15,
+    "name": "Jacket",
+    "price": 66,
+    "image": "/ProductsImage/intro2.webp",
+    "category": "clothes"
+  },
+  {
+    "id": 16,
+    "name": "Pants",
+    "price": 40,
+    "image": "/ProductsImage/pants.webp",
+    "category": "clothes"
+  },
+  {
+    "id": 17,
+    "name": "Pants",
+    "price": 45,
+    "image": "/ProductsImage/pants2.webp",
+    "category": "clothes"
+  },
+  {
+    "id": 18,
+    "name": "t-shirt",
+    "price": 22,
+    "image": "/ProductsImage/shirt.webp",
+    "category": "clothes"
+  },
+
+  {
+    "id": 20,
+    "name": "short",
+    "price": 18,
+    "image": "/ProductsImage/short.webp",
+    "category": "clothes"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "men's watch",
+    "price": 100,
+    "image": "/ProductsImage/shop-8.png"
+  },
+  {
+    "id": 2,
+    "name": "wireless headphone",
+    "price": 40,
+    "image": "/ProductsImage/land.png"
+  },
+  {
+    "id": 3,
+    "name": "AirBuds",
+    "price": 60,
+    "image": "/ProductsImage/AirBuds.webp"
+  },
+  {
+    "id": 4,
+    "name": "Laptop HP",
+    "price": 500,
+    "image": "/ProductsImage/newlaptop.webp"
+  },
+  {
+    "id": 5,
+    "name": "Smart samsung tv",
+    "price": 650,
+    "image": "/ProductsImage/tv-smart.webp"
+  },
+  {
+    "id": 6,
+    "name": "Earphone",
+    "price": 60,
+    "image": "/ProductsImage/EarPhone.webp"
+  },
+  {
+    "id": 7,
+    "name": "VR-Glasses",
+    "price": 250,
+    "image": "/ProductsImage/VR-Glasses.webp"
+  },
+  {
+    "id": 8,
+    "name": "Apple Watch",
+    "price": 180,
+    "image": "/ProductsImage/Apple_Watch.webp"
+  }
+]
